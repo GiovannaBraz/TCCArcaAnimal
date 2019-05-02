@@ -9,11 +9,15 @@
             <v-btn flat>Apadrinhamento</v-btn>
             <v-btn flat>Doação</v-btn>
             <v-btn flat>contatos</v-btn>
-            <v-btn flat>ONG Arca Animal</v-btn>
             <v-text-field
-                placehoolder="pesquisa"></v-text-field>
+                placehoolder="pesquisa"
+                box
+                append-icon="search"
+            ></v-text-field>
+            
+         
 
-            ></v-toolbar-items>
+        </v-toolbar-items>
         
     </v-toolbar>
     <v-content>
