@@ -9,6 +9,7 @@
             <v-btn flat>Apadrinhamento</v-btn>
             <v-btn flat>Doação</v-btn>
             <v-btn flat>contatos</v-btn>
+            <v-btn flat>Doações</v-btn>
             <v-text-field
                 placehoolder="pesquisa"
                 box
