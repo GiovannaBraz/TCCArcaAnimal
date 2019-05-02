@@ -15,10 +15,7 @@
                 append-icon="search"
             ></v-text-field>
             
-         
-
-        </v-toolbar-items>
-        
+        </v-toolbar-items>   
     </v-toolbar>
     <v-content>
       <router-view></router-view>
