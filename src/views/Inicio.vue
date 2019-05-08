@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-carousel>
-      <v-carousel-item  v-for="imagem in imagens" src="https://www.google.com/search?q=imagens+de+animais&tbm=isch&source=univ&sa=X&ved=2ahUKEwiVuqCH__zhAhWkLLkGHXZKBYsQsAR6BAgHEAE&biw=1024&bih=625#"
+      <v-carousel-item  v-for="imagens in imagens" src="https://www.google.com/search?q=imagens+de+animais&tbm=isch&source=univ&sa=X&ved=2ahUKEwiVuqCH__zhAhWkLLkGHXZKBYsQsAR6BAgHEAE&biw=1024&bih=625#"
       ></v-carousel-item>
     </v-carousel>
   </div>
