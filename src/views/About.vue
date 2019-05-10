@@ -1,34 +1,30 @@
 <template>
-
   <div class="about">
-    
     <v-toolbar class="white">
       <v-toolbar-title v-text="title"></v-toolbar-title>
     </v-toolbar>
-    <v-content>
-      <section>
-        <v-parallax id="img" >
-          <v-layout
-            column
-            align-center
-            justify-center
-            class="white--text"
-          >
-            
-            <h1 class="white--text mb-2 display-1 text-xs-center">Arca Animal</h1>
-            <div class="subheading mb-3 text-xs-center">Seja bem vindo</div>
-            <v-btn
-              class="blue lighten-2 mt-5"
-              dark
-              large
-              href="/pre-made-themes"
-            >
-              Faça seu Login
-            </v-btn>
-          </v-layout>
-        </v-parallax>
-      </section>
-
+    <v-parallax
+      :src="require('@/assets/dog.jpg')"
+    >
+      <v-layout
+        column
+        align-center
+        justify-center
+        class="white--text"
+      >
+        
+        <h1 class="white--text mb-2 display-1 text-xs-center">Arca Animal</h1>
+        <div class="subheading mb-3 text-xs-center">Seja bem vindo</div>
+        <v-btn
+          class="blue lighten-2 mt-5"
+          dark
+          large
+          href="/pre-made-themes"
+        >
+          Faça seu Login
+        </v-btn>
+      </v-layout>
+    </v-parallax>
       <section>
         <v-layout
           column
@@ -98,7 +94,10 @@
       </section>
 
       <section>
-        <v-parallax src="assets/gato.jpg" height="380">
+        <v-parallax
+          :src="require('@/assets/gato.jpg')"
+          height="380"
+        >
           <v-layout column align-center justify-center>
             <div class="headline white--text mb-3 text-xs-center">Arca Animal</div><v-btn
               class="blue lighten-2 mt-5"
@@ -172,14 +171,8 @@
           </v-flex>
         </v-layout>
       </v-footer>
-    </v-content>
   </div>
 </template>
-<style>
-#img{
-  background-image: url("assets/dog.jpg")
-}
-</style>
 <script>
 export default{
   data () {
