@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Login  from './views/Login.vue'
 import Inicio  from './views/Inicio.vue'
 import menu  from './views/menu.vue'
+import About  from './views/About.vue'
+import serviços  from './views/serviços.vue'
 
 Vue.use(Router)
 
@@ -25,5 +27,15 @@ export default new Router({
       name: 'menu',
       component: menu
     },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/serviços',
+      name: 'serviços',
+      component: serviços 
+    }
   ]
 })
