@@ -24,7 +24,6 @@
             temporary
             v-model="exibe"
         >
-
         </v-toolbar>
 
         <v-content>
