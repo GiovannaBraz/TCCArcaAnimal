@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <v-toolbar color="teal lighten-2 white--text">
+    <v-toolbar color="Snow-2 Black --text">
         <v-toolbar-side-icon
             class="white--text"
             @click="exibe = !exibe"
@@ -25,7 +25,7 @@
          temporary
          v-model="exibe"
     >
-    <v-toolbar color="teal lighten-2 white--text">
+    <v-toolbar color="Snow -2 Black --text">
             <h1>Arca Animal</h1>
           </v-toolbar>
           <v-divider></v-divider>
