@@ -1,60 +1,45 @@
 <template>
 <v-app>
-    <v-toolbar>
-        <v-toolbar-side-icon></v-toolbar-side-icon>
+    <v-toolbar color="teal lighten-2 white--text">
+        <v-toolbar-side-icon
+            class="white--text"
+            @click="exibe = !exibe"
+        ></v-toolbar-side-icon>
         <v-toolbar-title>Arca Animal</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn flat>Adoção</v-btn>
-            <v-btn flat>Apadrinhamento</v-btn>
-            <v-btn flat>Doação</v-btn>
-            <v-btn flat>contatos</v-btn>
+            <v-btn to="/Adocao" flat class="white--text">Adoção</v-btn>
+            <v-btn to="/Apadrinhamento" flat class="white--text">Apadrinhamento</v-btn>
+            <v-btn to="/Doacao" flat class="white--text">Doação</v-btn>
+            <v-btn to="/contatos" flat class="white--text">contatos</v-btn>
             <v-text-field
                 placehoolder="pesquisa"
                 box
                 append-icon="search"
-                class= "black--text"
-                @click="exibe = lexibe"
+                class= "hidden-sm-and-down"
             ></v-text-field>
-        </v-toolbar-items>   
-    </v-toolbar>
-        <v-navigation-drawer absolute permanent>
-            <v-toolbar color="teal lighten-2 white--text">
-            <h1>Barbearia</h1>
-            </v-toolbar>
-            <v-divider></v-divider>
-            <v-list dense>
-            <v-list-tile to="/">
-                <v-list-tile-action>
-                <v-icon color="teal">dashboard</v-icon>
-                </v-list-tile-action>
-                <v-list-tile-content>
-                Início
-                </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile to="/login">
-                <v-list-tile-action>
-                <v-icon color="teal">person</v-icon>
-                </v-list-tile-action>
-                <v-list-tile-content>
-                Login
-                </v-list-tile-content>
-            </v-list-tile>
-            </v-list>
-        </v-navigation-drawer>
-    <v-content>
-      <router-view></router-view>
-    </v-content>
-</v-app>
-</template>
-<script>
-    export default {
-        data() {
-            return{
+        </v-toolbar-items>
+        <v-navigation-drawer
+            absolute
+            temporary
+            v-model="exibe"
+        >
+
+        </v-toolbar>
+
+        <v-content>
+        <router-view></router-view>
+        </v-content>
+    </v-app>
+    </template>
+    <script>
+        export default {
+            data() {
+                return{
+                }
+            },
+            methods:{
+                
             }
-        },
-        methods:{
-            
         }
-    }
-</script>
+    </script>
