@@ -2,16 +2,16 @@
 <v-app>
     <v-toolbar color="Snow-2 Black --text">
         <v-toolbar-side-icon
-            class="white--text"
+            class="Black --text"
             @click="exibe = !exibe"
         ></v-toolbar-side-icon>
         <v-toolbar-title>Arca Animal</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn to="/Adocao" flat class="white--text">Adoção</v-btn>
-            <v-btn to="/Apadrinhamento" flat class="white--text">Apadrinhamento</v-btn>
-            <v-btn to="/Doacao" flat class="white--text">Doação</v-btn>
-            <v-btn to="/contatos" flat class="white--text">contatos</v-btn>
+            <v-btn to="/Adocao" flat class="Black --text">Adoção</v-btn>
+            <v-btn to="/Apadrinhamento" flat class="Black --text">Apadrinhamento</v-btn>
+            <v-btn to="/Doacao" flat class="Black --text">Doação</v-btn>
+            <v-btn to="/contatos" flat class="Black --text">contatos</v-btn>
             <v-text-field
                 placehoolder="pesquisa"
                 box
@@ -56,11 +56,11 @@
             </v-list-tile>
           </v-list>
         </v-navigation-drawer>
+
         <v-content>
             <router-view></router-view>
         </v-content>
     </v-app>
-
     </template>
     <script>
         export default {
