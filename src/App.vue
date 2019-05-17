@@ -18,14 +18,14 @@
                 append-icon="search"
                 class= "hidden-sm-and-down"
             ></v-text-field>
-        </v-toolbar-items>
-        <v-navigation-drawer
-            absolute
-            temporary
-            v-model="exibe"
-        >
-        </v-toolbar>
-
+        </v-toolbar-items> 
+    </v-toolbar>
+    <v-navigation-drawer
+         absolute
+         temporary
+         v-model="exibe"
+    >
+    
         <v-content>
         <router-view></router-view>
         </v-content>
