@@ -7,6 +7,7 @@ import Adocao  from './views/Adocao.vue'
 import Apadrinhamento  from './views/Apadrinhamento.vue'
 import Doacao  from './views/Doacao.vue'
 import contatos  from './views/contatos.vue'
+import cartao  from './views/cartao.vue'
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
       path: '/contatos',
       name: 'contatos',
       component: contatos
+    },
+    {
+      path: '/cartao',
+      name: 'catão',
+      component: cartao
     },
   ]
 })
