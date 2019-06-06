@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-0 py-0">
+  <v-container fluid class="ma-0 pa-0">
       <v-carousel class="carrosel">
         <v-carousel-item  
           v-for="(item,i) in items" 
