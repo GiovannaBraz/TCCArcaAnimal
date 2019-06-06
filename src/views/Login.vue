@@ -1,6 +1,6 @@
 <template>
-    <v-layout align-center justify-center row fill-height>
-	    <v-flex xs4>
+		<v-layout align-space-around justify-end row fill-height/>
+			<v-flex xs4>
 			<v-card class="pa-2">
 				<v-text-field label="E-mail" outline/>
 				<v-text-field label="Senha" outline/>
@@ -9,4 +9,4 @@
 			</v-card>
 		</v-flex>
 	</v-layout>
-</template>
+	</template>
