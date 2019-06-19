@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <v-toolbar color="Snow-2 Black --text">
+    <v-toolbar color="cyan  white --text">
         <v-toolbar-side-icon
             class="Black --text"
             @click="exibe = !exibe"
@@ -10,8 +10,8 @@
         <v-toolbar-items class="hidden-sm-and-down">
             <v-btn to="/Adocao" flat class="Black --text">Adoção</v-btn>
             <v-btn to="/Apadrinhamento" flat class="Black --text">Apadrinhamento</v-btn>
-            <v-btn to="/Doacao" flat class="Black --text">Doação</v-btn>
-            <v-btn to="/contatos" flat class="Black --text">contatos</v-btn>
+            <v-btn to="/Doacao" flat class="Black--text">Doação</v-btn>
+            <v-btn to="/contatos" flat class="Black--text">contatos</v-btn>
             <v-text-field
                 placehoolder="pesquisa"
                 box
@@ -25,7 +25,7 @@
          temporary
          v-model="exibe"
     >
-    <v-toolbar color="Snow -2 Black --text">
+    <v-toolbar color="cyan-2 white --text">
             <h1>Arca Animal</h1>
           </v-toolbar>
           <v-divider></v-divider>
