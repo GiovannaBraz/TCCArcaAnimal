@@ -4,7 +4,7 @@
 			<v-card class="pa-4">
 				<v-text-field  label="E-mail" class="pb-3"/>
 				<v-text-field  label="Senha" />
-				<v-btn color="info" block>Login</v-btn>
+				<v-btn color="info">Login</v-btn>
 			</v-card>
 		</v-flex>
 	</v-layout>
