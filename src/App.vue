@@ -32,7 +32,7 @@
           <v-list dense>
             <v-list-tile to="/">
               <v-list-tile-action>
-                <v-icon color="teal">dashboard</v-icon>
+                <v-icon color="cyan">home</v-icon>
               </v-list-tile-action>
               <v-list-tile-content>
                 Início
@@ -40,15 +40,15 @@
             </v-list-tile>
             <v-list-tile to="/login">
               <v-list-tile-action>
-                <v-icon color="teal">person</v-icon>
+                <v-icon color="cyan">person</v-icon>
               </v-list-tile-action>
               <v-list-tile-content>
                 Login
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile to="/cartao">
+            <v-list-tile to="/Adoção">
               <v-list-tile-action>
-                <v-icon color="teal">credit_card</v-icon>
+                <v-icon color="cyan">pets</v-icon>
               </v-list-tile-action>
               <v-list-tile-content>
                 Exemplo de Cartão
