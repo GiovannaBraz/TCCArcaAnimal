@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <v-toolbar color="cyan  white --text">
+    <v-toolbar color="cyan lighten-1  white --text">
         <v-toolbar-side-icon
             class="Black --text"
             @click="exibe = !exibe"
@@ -25,14 +25,14 @@
          temporary
          v-model="exibe"
     >
-    <v-toolbar color="cyan-2 white --text">
+    <v-toolbar color="cyan lighten-1 white --text">
             <h1>Arca Animal</h1>
           </v-toolbar>
           <v-divider></v-divider>
           <v-list dense>
             <v-list-tile to="/">
               <v-list-tile-action>
-                <v-icon color="cyan">home</v-icon>
+                <v-icon color="Black">home</v-icon>
               </v-list-tile-action>
               <v-list-tile-content>
                 Início
@@ -44,6 +44,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 Login
+
               </v-list-tile-content>
             </v-list-tile>
             <v-list-tile to="/Adoção">
