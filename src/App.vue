@@ -62,6 +62,14 @@
         </v-content>
     </v-app>
     </template>
+    <template>
+      <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn to="/Adocao" flat class="Black --text">Adoção</v-btn>
+          <v-btn to="/Apadrinhamento" flat class="Black --text">Apadrinhamento</v-btn>
+          <v-btn to="/Doacao" flat class="Black--text">Doação</v-btn>
+          <v-btn to="/contatos" flat class="Black--text">contatos</v-btn>
+        </v-toolbar-items>
+    </template>
     <script>
         export default {
             data() {
