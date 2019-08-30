@@ -2,14 +2,14 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login  from './views/Login.vue'
 import Inicio  from './views/Inicio.vue'
-import Menu  from './views/Menu.vue'
+import Menu  from './views/menu.vue'
 import About  from './views/About.vue'
 import Adocao  from './views/Adocao.vue'
 import Servicos  from './views/Servicos.vue'
 import Apadrinhamento  from './views/Apadrinhamento.vue'
 import Doacao  from './views/Doacao.vue'
-import Contatos  from './views/Contatos.vue'
-import Cartao  from './views/Cartao.vue'
+import Contatos  from './views/contatos.vue'
+import Cartao  from './views/cartao.vue'
 Vue.use(Router)
 
 export default new Router({
