@@ -18,7 +18,8 @@ npm run build
 ### Run your tests
 ```
 npm run test
-```
+```ç,fg,re~çg,ç~rg,~ç~gç
+----
 
 ### Lints and fixes files
 ```
